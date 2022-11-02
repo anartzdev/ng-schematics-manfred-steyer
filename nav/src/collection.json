@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "nav": {
+      "aliases": ["mnu"],
+      "description": "Generates a menu component",
+      "schema": "./nav/schema.json",
+      "factory": "./nav/index#nav"
+    }
+  }
+}
